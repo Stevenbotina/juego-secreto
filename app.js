@@ -21,7 +21,7 @@ function verificarIntento() {
         } else {
             asignarTextoElemento('p', 'El número secreto es mayor');
         }
-        numeroDeIntentos++
+        numeroDeIntentos++;
         limpiarCaja();
     }  
     return;
@@ -55,7 +55,7 @@ function condicionesIniciales() {
     asignarTextoElemento('h1', 'Juego del núnmero secreto!');
     asignarTextoElemento('p', `Indica un número del 1 al ${numeroMaximo} `);
     numeroSecreto = generarNumeroSecreto();
-    intentos = 1;
+    numeroDeIntentos = 1;
 }
 
 function reiniciarJuego() {
